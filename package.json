@@ -9,7 +9,7 @@
     "express": "3.0.2",
     "jade": "*",
     "stylus": "*"
-  }
+  },
   "engines": {
      "node": "0.6.21",
      "npm": "1.1.62"
