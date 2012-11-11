@@ -1,6 +1,12 @@
 extends layout
 
 block content
-  P
-    |  <br>
-    |  Projects Will Be Here Shortly
+  aside#project-sidebar
+    p
+    div#project-box(onclick="displayprojectx()", onmouseover="displayprojectx()")  Project X
+    p
+    div#project-box(onclick="displayprojecty()", onmouseover="displayprojecty()")  Project Y
+    p
+    div#project-box(onclick="displayprojectz()", onmouseover="displayprojectz()")  Project Z 
+
+  div#project-centerfold.project-centerfold  Hover over or click on a project to the left to see a description here.
