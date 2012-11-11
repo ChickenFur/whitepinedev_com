@@ -1,19 +1,36 @@
 body {
-  padding: 100px;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding-left: 100px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-div {
-  background-color: LightGray;
-  border-radius: 15px;
+#main-border {
+  background-color: #303030;
   width: 650px;
   height: 650px;
+  border: solid #000;
+  border-radius: 15px;
+}
+#main-content {
+  padding: 15px;
+  background-color: LightGray;
+  border-radius: 15px;
+  width: 620px;
+  height: 620px;
+  top: 0;
+  float: center;
+}
+#photo {
+  float: left;
+  padding: 8px;
+  background-color: #303030;
+}
+#bio {
+  font: 11px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-left: 100px;
 }
 a {
   color: #00b7ff;
 }
 footer {
   font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
-  text-align: center;
+  text-align: left;
 }

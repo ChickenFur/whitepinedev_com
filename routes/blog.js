@@ -1,5 +1,0 @@
-
-/*
- * GET the blog page.
- */
-

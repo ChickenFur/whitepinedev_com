@@ -1,4 +1,0 @@
-{"ts":1352602719372,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":false,"ts":1352602791863,"patch":[[{"diffs":[[1,"extends layout\r\n\r\nblock content\r\n    P\r\n        |  display blog here"]],"start1":0,"start2":0,"length1":0,"length2":68}]],"length":68,"saved":false}
-{"ts":1352604673223,"patch":[[{"diffs":[[0,"\n   "],[-1," P\r\n        |  display blog here"],[1,"h1 Blog Will Be Here Shortly"]],"start1":32,"start2":32,"length1":36,"length2":32}]],"length":64,"saved":false}
-{"ts":1352605302711,"patch":[[{"diffs":[[0,"\r\n  "],[-1," h1"],[1,"P\r\n    | "],[0," Blo"]],"start1":31,"start2":31,"length1":11,"length2":17}]],"length":70,"saved":false}
