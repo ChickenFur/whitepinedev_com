@@ -2,6 +2,13 @@ body {
   padding-left: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+a {
+  color: #00b7ff;
+}
+footer {
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: left;
+}
 #main-content {
   padding: 30px;
   background-color: LightGray;
@@ -35,10 +42,23 @@ body {
   width: 70px;
   border: solid #303030;
 }
-a {
-  color: #00b7ff;
-}
-footer {
-  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+#articles {
   text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+}
+#articles .article {
+  margin: 20px;
+}
+#articles .article .created_at {
+  display: none;
+}
+#articles .article .title {
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: #eee;
+}
+#articles .article .body {
+  background-color: #ffa;
 }

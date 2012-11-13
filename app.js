@@ -29,6 +29,10 @@ app.configure('development', function(){
 
 app.get('/', routes.index);
 app.get('/blog', routes.blog);
+
+app.get('/blog/new', routes.blog_new_get);
+app.post('/blog/new', routes.blog_new_post);
+
 app.get('/projects', routes.projects);
 app.get('/about', routes.about);
 
