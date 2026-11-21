@@ -1,4 +1,3 @@
+WhitePineDev.com
 
-WhitePineDev.com website
-
-Just making my new website.
+Static site for WhitePineDev LLC, hosted on GitHub Pages.
